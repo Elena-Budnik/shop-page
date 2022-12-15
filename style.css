@@ -21,6 +21,10 @@ header{
     margin-right: auto;
 
 }
+
+
+
+
 .row{
     display: flex;
     margin-left: -15px;
@@ -40,6 +44,10 @@ padding-right: 15px;
 .col-6{
     flex:0 0 50%;
     max-width: 50%;
+}
+.col-9{
+    flex:0 0 75%;
+    max-width: 75%;
 }
 .logo{
     margin-top: 7px;
@@ -68,4 +76,16 @@ padding-right: 15px;
     color:#2c71b8;
     text-decoration: none;
     border-left: 1px solid #2c71b8;
+}
+.search-form{
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background-color: transparent;
+}
+.input-search{
+    height: 30px;
+    border: none;
 }
